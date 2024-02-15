@@ -1,49 +1,38 @@
 export default function LocatPage() {
     return (
-        <div>
-            <p class=" font-bold text-2xl">Find Jobs By Location</p>
-            <div class="flex flex-wrap">
+        <div class="mb-16 center">
+            <p class=" font-bold text-2xl mt-8 text-center">Find Jobs By Location</p>
 
-                <div class="w-1/3 p-4 ">
-
-                    <div class="bg-blue-200 h-24 text-center justify-center items-center">
-                        Column 1
-                    </div>
+            <div class = "grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-3  text-white">
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countries in Africaa
                 </div>
-                <div class="w-1/3 p-4">
-
-                    <div class="bg-green-200 h-24 px-3 py-3 justify-center items-center">
-                        Column 2
-                    </div>
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countries in Africaa
                 </div>
-                <div class="w-1/3 p-4">
-
-                    <div class="bg-yellow-200 h-24 justify-center items-center">
-                        Column 3
-                    </div>
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countries in Africaa
+                </div>
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countris in Africaa
+                </div>
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countries in Africaa
+                </div>
+                <div class = " bg-blue-400 px-8 py-16">
+                    All the Countries in Africaa
                 </div>
 
 
-                <div class="w-1/3 p-4">
-
-                    <div class="bg-red-200 h-24">
-                        Column 4
-                    </div>
-                </div>
-                <div class="w-1/3 p-4">
-
-                    <div class="bg-purple-200 h-24">
-                        Column 5
-                    </div>
-                </div>
-                <div class="w-1/3 p-4">
-
-                    <div class="bg-pink-200 h-24">
-                        Column 6
-                    </div>
-                </div>
             </div>
+
+            
+
+
+
 
         </div>
     )
 }
+
+// Work on Responsiveness in this Component
